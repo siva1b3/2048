@@ -1,0 +1,30 @@
+
+.row {
+    clear: both;
+}
+
+.outer-square {
+position: relative; 
+width: 100px;
+height: 100px;
+background-color: #ccc;
+float: left;
+box-sizing: border-box;
+border: 2px solid #fff;
+}
+
+.inner-square {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #ff0000;
+    display: none;
+}
+
+.inner-square.show {
+    display: block;
+}
+
+
